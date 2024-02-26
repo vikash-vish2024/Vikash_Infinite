@@ -20,7 +20,7 @@ namespace Assignment
         {
             Console.WriteLine("Enter any String/Your Name : ");
             string s = Convert.ToString(Console.ReadLine());
-            //Lenth of the String
+            //Length of the String
             Console.WriteLine("The length of the given String is -> " + s.Length);
             //Reverse of the given string
             char[] rev = s.Reverse().ToArray();
