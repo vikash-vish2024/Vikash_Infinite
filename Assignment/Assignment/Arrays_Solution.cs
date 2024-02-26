@@ -11,8 +11,8 @@ namespace Assignment
         public static void Main(String[] args)
         {
             Arrays_Solution arrays_solution = new Arrays_Solution();
-            arrays_solution.Array1();
-            arrays_solution.Array2();
+           // arrays_solution.Array1();
+           // arrays_solution.Array2();
             arrays_solution.Copy_ElementsofArray();
             Console.Read();
 
@@ -34,13 +34,14 @@ namespace Assignment
             }
             Console.WriteLine("Average value of Array elements : "+(total/10));
             //Minimum and Maximum value in an array
-            Console.WriteLine(arr.Min());
-            Console.WriteLine(arr.Max());
+            Console.WriteLine("Min value of the array : "+arr.Min());
+            Console.WriteLine("Max value of the array : "+arr.Max());
         }
         //C# to accept ten marks and display the following
         public void Array2()
         {
             int total=0;
+            Console.WriteLine("Enter 10 students marks :");
             int[] arr = new int[10];
             for(int i = 0; i < arr.Length; i++)
             {
@@ -69,7 +70,7 @@ namespace Assignment
             Console.WriteLine("Array in Descending order");
             for(int i = arr.Length - 1; i >= 0; i--)
             {
-                Console.WriteLine(arr[i]+"->");
+                Console.Write(arr[i]+"->");
             }
         }
         public void Copy_ElementsofArray()
@@ -87,8 +88,9 @@ namespace Assignment
             {
                 Console.Write(arr1[i]+" ");
                 //copy the elements of first array into second array
-                arr1[i] = arr2[i];
+                arr2[i] = arr1[i];
             }
+            Console.WriteLine();
             // Printing the second array
             Console.WriteLine("Second array");
             for (int i = 0; i < arr1.Length; i++)
