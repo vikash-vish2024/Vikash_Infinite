@@ -11,8 +11,8 @@ namespace Assignment
         public static void Main(String[] args)
         {
             Arrays_Solution arrays_solution = new Arrays_Solution();
-           // arrays_solution.Array1();
-           // arrays_solution.Array2();
+            arrays_solution.Array1();
+            arrays_solution.Array2();
             arrays_solution.Copy_ElementsofArray();
             Console.Read();
 
