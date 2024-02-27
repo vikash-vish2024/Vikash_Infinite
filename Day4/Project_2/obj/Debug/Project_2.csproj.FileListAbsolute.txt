@@ -1,0 +1,2 @@
+D:\Infinite_Training\Day4\Project_2\obj\Debug\Project_2.csproj.AssemblyReference.cache
+D:\Infinite_Training\Day4\Project_2\obj\Debug\Project_2.csproj.CoreCompileInputs.cache

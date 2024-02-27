@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{367BB765-97B7-4864-9B61-AB2B28D68694}</ProjectGuid>
+    <ProjectGuid>{971CDA34-9A4A-4E14-BF82-D25E3927790C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day4</RootNamespace>
-    <AssemblyName>Day4</AssemblyName>
+    <RootNamespace>Project_2</RootNamespace>
+    <AssemblyName>Project_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Day4.Struct_Enumrations</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,14 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Access_Specifier_Eg.cs" />
-    <Compile Include="Struct_Enumrations.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Project_1.cs" />
+    <Compile Include="Project_2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Read_Only_Contant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Day4\Day4.csproj">
+      <Project>{367bb765-97b7-4864-9b61-ab2b28d68694}</Project>
+      <Name>Day4</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
