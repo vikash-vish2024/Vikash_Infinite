@@ -28,6 +28,7 @@ namespace Assignment
             for (int i = 0; i < rev.Length; i++)
             {
                 Console.Write(rev[i]);
+               
             }
 
         }
