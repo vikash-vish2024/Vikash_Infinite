@@ -8,7 +8,7 @@ namespace Project_2
 {
     public class Read_Only_Contant
     {
-        readonly bool flag = true; //initializing at the time of declare
+        readonly bool flag = true; //initializing at the time of declaring
         readonly int ronly;
         //private constructor
         internal Read_Only_Contant()
@@ -16,7 +16,8 @@ namespace Project_2
             Console.WriteLine(flag +"  "+ronly);
             flag = false;
             ronly = 100; // initilaizing the readonly variable in the constructor
-
+            Console.WriteLine("____________________________________");
+            Console.WriteLine(flag+" "+ronly);
         }
     }
     class Trail
@@ -30,7 +31,7 @@ namespace Project_2
         public static void Main()
         {
             Read_Only_Contant rc = new Read_Only_Contant();
-            
+            Console.WriteLine("Hey?");
             Console.Read();
         }
 

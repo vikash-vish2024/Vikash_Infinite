@@ -32,13 +32,13 @@ namespace Day4
             {
                 // Console.WriteLine(x);
                 if (x == 1)
-                    Console.WriteLine(Enum.GetName(typeof(cities), x + " is a graden city"));
+                    Console.WriteLine(Enum.GetName(typeof(cities), x) + " is a graden city");
                 else if (x == 2)
-                    Console.WriteLine(Enum.GetName(typeof(cities), x + " is a temple city"));
+                    Console.WriteLine(Enum.GetName(typeof(cities), x) + " is a temple city");
                 else if (x == 3)
-                    Console.WriteLine(Enum.GetName(typeof(cities), x + " is a clothes city"));
+                    Console.WriteLine(Enum.GetName(typeof(cities), x) + " is a clothes city");
                 else if (x == 4)
-                    Console.WriteLine(Enum.GetName(typeof(cities), x + " is a metro city"));
+                    Console.WriteLine(Enum.GetName(typeof(cities), x) + " is a metro city");
                 else
                     Console.WriteLine(Enum.GetName(typeof(cities), x));
 
@@ -74,6 +74,15 @@ namespace Day4
 
             //dynamic data type
             dynamic d;
+            d = 8;
+            d = 'u';
+            Console.WriteLine(d);
+            d = "hhhh";
+            Console.WriteLine(d);
+            d = 66.7f;
+            d = 4567.87;
+            d = true;
+            Console.WriteLine(d);
 
             Console.Read();
 
