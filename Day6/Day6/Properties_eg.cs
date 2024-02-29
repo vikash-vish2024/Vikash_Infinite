@@ -11,6 +11,9 @@ namespace Day6
         string _code = "N.A";
         string _Name = "Missing";
         int _Age = 0;
+
+        //string[] projectdetails;
+
         //Autometic property implementation
         //public double _Salary { protected get; set; } = 26000;
         public double _Salary { get; } = 26000;
@@ -18,7 +21,7 @@ namespace Day6
         // override the object.tostring fun to show all the fun in one go
         public override string ToString()
         {
-            return "Employee code ->" + Code+ " Name->"+Name+", Age is - "+Age+", Salary is ->"+_Salary;
+            return "Employee code ->" + Code+ ", Name->"+Name+", Age is - "+Age+", Salary is ->"+_Salary;
         }
         //declare properties of private field
         public string Code
