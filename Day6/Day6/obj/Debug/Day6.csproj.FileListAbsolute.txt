@@ -1,0 +1,7 @@
+D:\Infinite_Training\Day6\Day6\bin\Debug\Day6.exe.config
+D:\Infinite_Training\Day6\Day6\bin\Debug\Day6.exe
+D:\Infinite_Training\Day6\Day6\bin\Debug\Day6.pdb
+D:\Infinite_Training\Day6\Day6\obj\Debug\Day6.csproj.AssemblyReference.cache
+D:\Infinite_Training\Day6\Day6\obj\Debug\Day6.csproj.CoreCompileInputs.cache
+D:\Infinite_Training\Day6\Day6\obj\Debug\Day6.exe
+D:\Infinite_Training\Day6\Day6\obj\Debug\Day6.pdb
