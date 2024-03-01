@@ -10,12 +10,15 @@ namespace Dotnet_Day7
     abstract class Shapes
     {
         public int sample { get; set; }
-        //abstract method
+        //abstract method initialization
         abstract public int Area();
-        public void method1() { }
+        public void Method1() 
+        { 
+            
+        }
         public virtual void DrawShape()
         {
-            Console.WriteLine("It is the Shape");
+            Console.WriteLine("It is the Shape(class)");
         }
     }
 
@@ -27,7 +30,7 @@ namespace Dotnet_Day7
             side = n;
         }
 
-        public override int Area()
+        public override int Area() //overide form another class/interface
         {
             return side * side;
         }
@@ -46,6 +49,15 @@ namespace Dotnet_Day7
             Shapes s = new Square(4);
             Console.WriteLine("Area of Square : " + s.Area());
             s.DrawShape();
+
+            // anonymous type
+
+            var myanonymous = new { data1 = "Csharp",
+                data2 = 2,
+                data3 = true };
+            Console.WriteLine(myanonymous);
+            // Get the store data in anonymous type
+            Console.WriteLine(myanonymous.GetType().ToString());
             Console.Read();
 
         }
