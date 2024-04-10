@@ -1,0 +1,12 @@
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\obj\Debug\RRSystem.csproj.AssemblyReference.cache
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\obj\Debug\RRSystem.csproj.CoreCompileInputs.cache
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\bin\Debug\RRSystem.exe.config
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\bin\Debug\RRSystem.exe
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\bin\Debug\RRSystem.pdb
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\bin\Debug\EntityFramework.dll
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\bin\Debug\EntityFramework.xml
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\obj\Debug\RRSystem.csproj.CopyComplete
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\obj\Debug\RRSystem.exe
+D:\Assesments_infinite\Projects\RRSystem\RRSystem\obj\Debug\RRSystem.pdb

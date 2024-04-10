@@ -1,0 +1,7 @@
+D:\Infinite_Training\Hands_On\Hands_On\bin\Debug\Hands_On.exe.config
+D:\Infinite_Training\Hands_On\Hands_On\bin\Debug\Hands_On.exe
+D:\Infinite_Training\Hands_On\Hands_On\bin\Debug\Hands_On.pdb
+D:\Infinite_Training\Hands_On\Hands_On\obj\Debug\Hands_On.csproj.AssemblyReference.cache
+D:\Infinite_Training\Hands_On\Hands_On\obj\Debug\Hands_On.csproj.CoreCompileInputs.cache
+D:\Infinite_Training\Hands_On\Hands_On\obj\Debug\Hands_On.exe
+D:\Infinite_Training\Hands_On\Hands_On\obj\Debug\Hands_On.pdb

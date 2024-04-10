@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: SeverHost, Configuration: Debug Any CPU ------
+1>D:\Infinite_Training\Remoting\SeverHost\SeverHost\Program.cs(6,40,6,44): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Runtime.Remoting.Channels' (are you missing an assembly reference?)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

@@ -1,0 +1,6 @@
+D:\Infinite_Training\Remoting\Remote_Objects\Remote_Objects\bin\Debug\Remote_Objects.dll
+D:\Infinite_Training\Remoting\Remote_Objects\Remote_Objects\bin\Debug\Remote_Objects.pdb
+D:\Infinite_Training\Remoting\Remote_Objects\Remote_Objects\obj\Debug\Remote_Objects.csproj.AssemblyReference.cache
+D:\Infinite_Training\Remoting\Remote_Objects\Remote_Objects\obj\Debug\Remote_Objects.csproj.CoreCompileInputs.cache
+D:\Infinite_Training\Remoting\Remote_Objects\Remote_Objects\obj\Debug\Remote_Objects.dll
+D:\Infinite_Training\Remoting\Remote_Objects\Remote_Objects\obj\Debug\Remote_Objects.pdb

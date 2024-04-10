@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RRSysDBModelStoreContainer" CdmEntityContainer="RRSysDBEntities">
+    <EntitySetMapping Name="Admin_Details">
+      <EntityTypeMapping TypeName="RRSysDBModel.Admin_Details">
+        <MappingFragment StoreEntitySet="Admin_Details">
+          <ScalarProperty Name="Admin_id" ColumnName="Admin-id" />
+          <ScalarProperty Name="Admin_Name" ColumnName="Admin-Name" />
+          <ScalarProperty Name="passcode" ColumnName="passcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Booked_Ticket">
+      <EntityTypeMapping TypeName="RRSysDBModel.Booked_Ticket">
+        <MappingFragment StoreEntitySet="Booked_Ticket">
+          <ScalarProperty Name="PNR_No" ColumnName="PNR-No" />
+          <ScalarProperty Name="User_id" ColumnName="User-id" />
+          <ScalarProperty Name="Train_No" ColumnName="Train-No" />
+          <ScalarProperty Name="Passenger_Name" ColumnName="Passenger-Name" />
+          <ScalarProperty Name="Passenger_Age" ColumnName="Passenger-Age" />
+          <ScalarProperty Name="TotalFare" ColumnName="TotalFare" />
+          <ScalarProperty Name="Booking_Date_Time" ColumnName="Booking-Date-Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cancelled_Ticket">
+      <EntityTypeMapping TypeName="RRSysDBModel.Cancelled_Ticket">
+        <MappingFragment StoreEntitySet="Cancelled_Ticket">
+          <ScalarProperty Name="Canceled_id" ColumnName="Canceled-id" />
+          <ScalarProperty Name="PNR_No" ColumnName="PNR-No" />
+          <ScalarProperty Name="User_id" ColumnName="User-id" />
+          <ScalarProperty Name="Train_No" ColumnName="Train-No" />
+          <ScalarProperty Name="Cancellation_Date_Time" ColumnName="Cancellation-Date-Time" />
+          <ScalarProperty Name="Refund_Ammount" ColumnName="Refund-Ammount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Train_Details">
+      <EntityTypeMapping TypeName="RRSysDBModel.Train_Details">
+        <MappingFragment StoreEntitySet="Train_Details">
+          <ScalarProperty Name="Train_No" ColumnName="Train-No" />
+          <ScalarProperty Name="Train_Name" ColumnName="Train-Name" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_details">
+      <EntityTypeMapping TypeName="RRSysDBModel.User_details">
+        <MappingFragment StoreEntitySet="User_details">
+          <ScalarProperty Name="User_id" ColumnName="User-id" />
+          <ScalarProperty Name="User_Name" ColumnName="User-Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Passcode" ColumnName="Passcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Class_Fare">
+      <EntityTypeMapping TypeName="RRSysDBModel.Class_Fare">
+        <MappingFragment StoreEntitySet="Class_Fare">
+          <ScalarProperty Name="Serial_No" ColumnName="Serial-No" />
+          <ScalarProperty Name="Train_No" ColumnName="Train-No" />
+          <ScalarProperty Name="C1_A" ColumnName="1-A" />
+          <ScalarProperty Name="C2_A" ColumnName="2-A" />
+          <ScalarProperty Name="C3_A" ColumnName="3-A" />
+          <ScalarProperty Name="SL" ColumnName="SL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seat_Availability">
+      <EntityTypeMapping TypeName="RRSysDBModel.Seat_Availability">
+        <MappingFragment StoreEntitySet="Seat_Availability">
+          <ScalarProperty Name="Serial_No" ColumnName="Serial-No" />
+          <ScalarProperty Name="Train_No" ColumnName="Train-No" />
+          <ScalarProperty Name="C1_A" ColumnName="1-A" />
+          <ScalarProperty Name="C2_A" ColumnName="2-A" />
+          <ScalarProperty Name="C3_A" ColumnName="3-A" />
+          <ScalarProperty Name="SL" ColumnName="SL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SeatManageProc" FunctionName="RRSysDBModel.Store.SeatManageProc" />
+  </EntityContainerMapping>
+</Mapping>

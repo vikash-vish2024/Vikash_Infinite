@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="77c585276dc24f38a82f9053eb872742" Name="Diagram1">
+        <EntityTypeShape EntityType="RRSysDBModel.Admin_Details" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RRSysDBModel.Booked_Ticket" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RRSysDBModel.Cancelled_Ticket" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RRSysDBModel.Train_Details" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RRSysDBModel.User_details" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RRSysDBModel.Class_Fare" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RRSysDBModel.Seat_Availability" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <AssociationConnector Association="RRSysDBModel.FK__Booked_Ti__Train__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="RRSysDBModel.FK__Booked_Ti__User___5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="RRSysDBModel.FK__Cancelled__PNR_N__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="RRSysDBModel.FK__Cancelled__Train__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="RRSysDBModel.FK__Cancelled__User___59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="RRSysDBModel.FK__Class_Far__Train__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="RRSysDBModel.FK__Seat_Avai__Train__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

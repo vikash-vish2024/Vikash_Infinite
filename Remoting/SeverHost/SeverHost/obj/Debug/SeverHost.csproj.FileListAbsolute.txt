@@ -1,0 +1,2 @@
+D:\Infinite_Training\Remoting\SeverHost\SeverHost\obj\Debug\SeverHost.csproj.AssemblyReference.cache
+D:\Infinite_Training\Remoting\SeverHost\SeverHost\obj\Debug\SeverHost.csproj.CoreCompileInputs.cache
